@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-27T08:10:58 GMT-05:00" name="Suite" finished-at="2023-12-27T08:12:02 GMT-05:00" duration-ms="63631">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T08:10:58 GMT-05:00" name="ChromeTest" finished-at="2023-12-27T08:11:19 GMT-05:00" duration-ms="21063">
+      <class name="paralleldemo.Selenium4ParallelDemo">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:paralleldemo.Selenium4ParallelDemo@cc43f62]" started-at="2023-12-27T08:10:58 GMT-05:00" name="setDriver" finished-at="2023-12-27T08:11:03 GMT-05:00" duration-ms="4589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="validCredentials()[pri:0, instance:paralleldemo.Selenium4ParallelDemo@cc43f62]" started-at="2023-12-27T08:11:03 GMT-05:00" name="validCredentials" finished-at="2023-12-27T08:11:14 GMT-05:00" duration-ms="11867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paralleldemo.Selenium4ParallelDemo@cc43f62]" started-at="2023-12-27T08:11:14 GMT-05:00" name="closeBrowser" finished-at="2023-12-27T08:11:15 GMT-05:00" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:paralleldemo.Selenium4ParallelDemo@cc43f62]" started-at="2023-12-27T08:11:15 GMT-05:00" name="setDriver" finished-at="2023-12-27T08:11:19 GMT-05:00" duration-ms="4289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="click_on_the_login_button()[pri:1, instance:paralleldemo.Selenium4ParallelDemo@cc43f62]" started-at="2023-12-27T08:11:19 GMT-05:00" name="click_on_the_login_button" finished-at="2023-12-27T08:11:19 GMT-05:00" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_the_login_button -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paralleldemo.Selenium4ParallelDemo@cc43f62]" started-at="2023-12-27T08:11:19 GMT-05:00" name="closeBrowser" finished-at="2023-12-27T08:11:19 GMT-05:00" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paralleldemo.Selenium4ParallelDemo -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-12-27T08:11:19 GMT-05:00" name="FireFoxTest" finished-at="2023-12-27T08:11:41 GMT-05:00" duration-ms="22230">
+      <class name="paralleldemo.Selenium4ParallelDemo">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:paralleldemo.Selenium4ParallelDemo@48e1f6c7]" started-at="2023-12-27T08:11:19 GMT-05:00" name="setDriver" finished-at="2023-12-27T08:11:24 GMT-05:00" duration-ms="4968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="validCredentials()[pri:0, instance:paralleldemo.Selenium4ParallelDemo@48e1f6c7]" started-at="2023-12-27T08:11:24 GMT-05:00" name="validCredentials" finished-at="2023-12-27T08:11:34 GMT-05:00" duration-ms="10412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paralleldemo.Selenium4ParallelDemo@48e1f6c7]" started-at="2023-12-27T08:11:34 GMT-05:00" name="closeBrowser" finished-at="2023-12-27T08:11:35 GMT-05:00" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:paralleldemo.Selenium4ParallelDemo@48e1f6c7]" started-at="2023-12-27T08:11:35 GMT-05:00" name="setDriver" finished-at="2023-12-27T08:11:40 GMT-05:00" duration-ms="4968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="click_on_the_login_button()[pri:1, instance:paralleldemo.Selenium4ParallelDemo@48e1f6c7]" started-at="2023-12-27T08:11:40 GMT-05:00" name="click_on_the_login_button" finished-at="2023-12-27T08:11:40 GMT-05:00" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_the_login_button -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paralleldemo.Selenium4ParallelDemo@48e1f6c7]" started-at="2023-12-27T08:11:40 GMT-05:00" name="closeBrowser" finished-at="2023-12-27T08:11:41 GMT-05:00" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paralleldemo.Selenium4ParallelDemo -->
+    </test> <!-- FireFoxTest -->
+    <test started-at="2023-12-27T08:11:41 GMT-05:00" name="EdgeTest" finished-at="2023-12-27T08:12:02 GMT-05:00" duration-ms="20302">
+      <class name="paralleldemo.Selenium4ParallelDemo">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:paralleldemo.Selenium4ParallelDemo@480d3575]" started-at="2023-12-27T08:11:41 GMT-05:00" name="setDriver" finished-at="2023-12-27T08:11:45 GMT-05:00" duration-ms="4101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="validCredentials()[pri:0, instance:paralleldemo.Selenium4ParallelDemo@480d3575]" started-at="2023-12-27T08:11:45 GMT-05:00" name="validCredentials" finished-at="2023-12-27T08:11:57 GMT-05:00" duration-ms="11681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentials -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paralleldemo.Selenium4ParallelDemo@480d3575]" started-at="2023-12-27T08:11:57 GMT-05:00" name="closeBrowser" finished-at="2023-12-27T08:11:57 GMT-05:00" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:paralleldemo.Selenium4ParallelDemo@480d3575]" started-at="2023-12-27T08:11:57 GMT-05:00" name="setDriver" finished-at="2023-12-27T08:12:01 GMT-05:00" duration-ms="4135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="click_on_the_login_button()[pri:1, instance:paralleldemo.Selenium4ParallelDemo@480d3575]" started-at="2023-12-27T08:12:01 GMT-05:00" name="click_on_the_login_button" finished-at="2023-12-27T08:12:01 GMT-05:00" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_the_login_button -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:paralleldemo.Selenium4ParallelDemo@480d3575]" started-at="2023-12-27T08:12:01 GMT-05:00" name="closeBrowser" finished-at="2023-12-27T08:12:02 GMT-05:00" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- paralleldemo.Selenium4ParallelDemo -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

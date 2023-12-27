@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="paralleldemo.Selenium4ParallelDemo">
+        <methods>
+          <include name="click_on_the_login_button"/>
+          <include name="closeBrowser"/>
+          <include name="setDriver"/>
+          <include name="validCredentials"/>
+        </methods>
+      </class> <!-- paralleldemo.Selenium4ParallelDemo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
