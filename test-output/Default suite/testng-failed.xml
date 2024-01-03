@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="paralleldemo.Selenium4ParallelDemo">
+      <class name="crossbrowser.CrossBrowserTest">
         <methods>
+          <include name="endTest"/>
+          <include name="CINCHCCMlogin"/>
           <include name="click_on_the_login_button"/>
-          <include name="closeBrowser"/>
-          <include name="setDriver"/>
-          <include name="validCredentials"/>
+          <include name="Verify_the_Continue_Button"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- paralleldemo.Selenium4ParallelDemo -->
+      </class> <!-- crossbrowser.CrossBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

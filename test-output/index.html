@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">33 methods, 2 failed,   31 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="choose_an_end_date">choose_an_end_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="community_note_was_created_message_should_be_shown">community_note_was_created_message_should_be_shown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,32 +122,157 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="paralleldemo.Selenium4ParallelDemo" class="method navigator-link" hash-for-method="click_on_the_login_button">click_on_the_login_button</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="CINCHCCMlogin">CINCHCCMlogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="paralleldemo.Selenium4ParallelDemo" class="method navigator-link" hash-for-method="click_on_the_login_button">click_on_the_login_button</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="CINCHCCMlogin">CINCHCCMlogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="paralleldemo.Selenium4ParallelDemo" class="method navigator-link" hash-for-method="click_on_the_login_button">click_on_the_login_button</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="CINCHCCMlogin">CINCHCCMlogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="paralleldemo.Selenium4ParallelDemo" class="method navigator-link" hash-for-method="validCredentials">validCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="Verify_the_Continue_Button">Verify_the_Continue_Button</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="paralleldemo.Selenium4ParallelDemo" class="method navigator-link" hash-for-method="validCredentials">validCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="Verify_the_Continue_Button">Verify_the_Continue_Button</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="paralleldemo.Selenium4ParallelDemo" class="method navigator-link" hash-for-method="validCredentials">validCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="Verify_the_Continue_Button">Verify_the_Continue_Button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="choose_a_start_date">choose_a_start_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="choose_a_start_date">choose_a_start_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="choose_a_start_date">choose_a_start_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="choose_an_end_date">choose_an_end_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="choose_an_end_date">choose_an_end_date</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_add_new_community_note">click_on_the_add_new_community_note</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_add_new_community_note">click_on_the_add_new_community_note</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_add_new_community_note">click_on_the_add_new_community_note</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_login_button">click_on_the_login_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_login_button">click_on_the_login_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_login_button">click_on_the_login_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_manage">click_on_the_manage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_manage">click_on_the_manage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_manage">click_on_the_manage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_save_button">click_on_the_save_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_save_button">click_on_the_save_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="click_on_the_save_button">click_on_the_save_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="community_note_was_created_message_should_be_shown">community_note_was_created_message_should_be_shown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="community_note_was_created_message_should_be_shown">community_note_was_created_message_should_be_shown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="enter_the_note">enter_the_note</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="enter_the_note">enter_the_note</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="enter_the_note">enter_the_note</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="select_communities">select_communities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="select_communities">select_communities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="crossbrowser.CrossBrowserTest" class="method navigator-link" hash-for-method="select_communities">select_communities</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -143,17 +287,197 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">paralleldemo.Selenium4ParallelDemo</span>
+              <img src="failed.png"/>
+              <span class="class-name">crossbrowser.CrossBrowserTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="click_on_the_login_button">
-                  </a> <!-- click_on_the_login_button -->
-                  <span class="method-name">click_on_the_login_button</span>
+                  <a name="choose_an_end_date">
+                  </a> <!-- choose_an_end_date -->
+                  <span class="method-name">choose_an_end_date</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (505, -50)
+  (Session info: MicrosoftEdge=120.0.2210.91)
+Build info: version: &apos;4.16.0&apos;, revision: &apos;15400459dd*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c5dc1585f536eecfc6efc9facb357c10, clickElement {id=F581450699DB4618DB30D433C338E216_element_67}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 120.0.2210.91, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61154}, msedge: {msedgedriverVersion: 120.0.2210.91 (f469d579f138..., userDataDir: C:\Users\ANOOPK~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61154/devtoo..., se:cdpVersion: 120.0.2210.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c5dc1585f536eecfc6efc9facb357c10)] -&gt; xpath: //input[@id=&apos;enddate&apos;]]
+Session ID: c5dc1585f536eecfc6efc9facb357c10
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at crossbrowser.CrossBrowserTest.choose_an_end_date(CrossBrowserTest.java:185)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verify an end date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="community_note_was_created_message_should_be_shown">
+                  </a> <!-- community_note_was_created_message_should_be_shown -->
+                  <span class="method-name">community_note_was_created_message_should_be_shown</span>
+                  <div class="stack-trace">java.lang.AssertionError: Community Note was created. expected [Community Note was created.] but found [Community note]
+	at crossbrowser.CrossBrowserTest.community_note_was_created_message_should_be_shown(CrossBrowserTest.java:223)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(validation message should be shown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">crossbrowser.CrossBrowserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CINCHCCMlogin">
+                  </a> <!-- CINCHCCMlogin -->
+                  <span class="method-name">CINCHCCMlogin</span>
+                  <em>
+(Verify the login functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CINCHCCMlogin">
+                  </a> <!-- CINCHCCMlogin -->
+                  <span class="method-name">CINCHCCMlogin</span>
+                  <em>
+(Verify the login functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CINCHCCMlogin">
+                  </a> <!-- CINCHCCMlogin -->
+                  <span class="method-name">CINCHCCMlogin</span>
+                  <em>
+(Verify the login functionality)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_the_Continue_Button">
+                  </a> <!-- Verify_the_Continue_Button -->
+                  <span class="method-name">Verify_the_Continue_Button</span>
+                  <em>
+(verify the continue button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_the_Continue_Button">
+                  </a> <!-- Verify_the_Continue_Button -->
+                  <span class="method-name">Verify_the_Continue_Button</span>
+                  <em>
+(verify the continue button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_the_Continue_Button">
+                  </a> <!-- Verify_the_Continue_Button -->
+                  <span class="method-name">Verify_the_Continue_Button</span>
+                  <em>
+(verify the continue button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="choose_a_start_date">
+                  </a> <!-- choose_a_start_date -->
+                  <span class="method-name">choose_a_start_date</span>
+                  <em>
+(verify the start date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="choose_a_start_date">
+                  </a> <!-- choose_a_start_date -->
+                  <span class="method-name">choose_a_start_date</span>
+                  <em>
+(verify the start date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="choose_a_start_date">
+                  </a> <!-- choose_a_start_date -->
+                  <span class="method-name">choose_a_start_date</span>
+                  <em>
+(verify the start date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="choose_an_end_date">
+                  </a> <!-- choose_an_end_date -->
+                  <span class="method-name">choose_an_end_date</span>
+                  <em>
+(verify an end date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="choose_an_end_date">
+                  </a> <!-- choose_an_end_date -->
+                  <span class="method-name">choose_an_end_date</span>
+                  <em>
+(verify an end date)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_the_add_new_community_note">
+                  </a> <!-- click_on_the_add_new_community_note -->
+                  <span class="method-name">click_on_the_add_new_community_note</span>
+                  <em>
+(verify the community note)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_the_add_new_community_note">
+                  </a> <!-- click_on_the_add_new_community_note -->
+                  <span class="method-name">click_on_the_add_new_community_note</span>
+                  <em>
+(verify the community note)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_the_add_new_community_note">
+                  </a> <!-- click_on_the_add_new_community_note -->
+                  <span class="method-name">click_on_the_add_new_community_note</span>
+                  <em>
+(verify the community note)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -161,6 +485,8 @@
                   <a name="click_on_the_login_button">
                   </a> <!-- click_on_the_login_button -->
                   <span class="method-name">click_on_the_login_button</span>
+                  <em>
+(Verify the login button)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -168,27 +494,143 @@
                   <a name="click_on_the_login_button">
                   </a> <!-- click_on_the_login_button -->
                   <span class="method-name">click_on_the_login_button</span>
+                  <em>
+(Verify the login button)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validCredentials">
-                  </a> <!-- validCredentials -->
-                  <span class="method-name">validCredentials</span>
+                  <a name="click_on_the_login_button">
+                  </a> <!-- click_on_the_login_button -->
+                  <span class="method-name">click_on_the_login_button</span>
+                  <em>
+(Verify the login button)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validCredentials">
-                  </a> <!-- validCredentials -->
-                  <span class="method-name">validCredentials</span>
+                  <a name="click_on_the_manage">
+                  </a> <!-- click_on_the_manage -->
+                  <span class="method-name">click_on_the_manage</span>
+                  <em>
+(verify that manage button)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validCredentials">
-                  </a> <!-- validCredentials -->
-                  <span class="method-name">validCredentials</span>
+                  <a name="click_on_the_manage">
+                  </a> <!-- click_on_the_manage -->
+                  <span class="method-name">click_on_the_manage</span>
+                  <em>
+(verify that manage button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_the_manage">
+                  </a> <!-- click_on_the_manage -->
+                  <span class="method-name">click_on_the_manage</span>
+                  <em>
+(verify that manage button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_the_save_button">
+                  </a> <!-- click_on_the_save_button -->
+                  <span class="method-name">click_on_the_save_button</span>
+                  <em>
+(verify the save button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_the_save_button">
+                  </a> <!-- click_on_the_save_button -->
+                  <span class="method-name">click_on_the_save_button</span>
+                  <em>
+(verify the save button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_the_save_button">
+                  </a> <!-- click_on_the_save_button -->
+                  <span class="method-name">click_on_the_save_button</span>
+                  <em>
+(verify the save button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="community_note_was_created_message_should_be_shown">
+                  </a> <!-- community_note_was_created_message_should_be_shown -->
+                  <span class="method-name">community_note_was_created_message_should_be_shown</span>
+                  <em>
+(validation message should be shown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="community_note_was_created_message_should_be_shown">
+                  </a> <!-- community_note_was_created_message_should_be_shown -->
+                  <span class="method-name">community_note_was_created_message_should_be_shown</span>
+                  <em>
+(validation message should be shown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_the_note">
+                  </a> <!-- enter_the_note -->
+                  <span class="method-name">enter_the_note</span>
+                  <em>
+(verify the note textfield)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_the_note">
+                  </a> <!-- enter_the_note -->
+                  <span class="method-name">enter_the_note</span>
+                  <em>
+(verify the note textfield)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enter_the_note">
+                  </a> <!-- enter_the_note -->
+                  <span class="method-name">enter_the_note</span>
+                  <em>
+(verify the note textfield)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_communities">
+                  </a> <!-- select_communities -->
+                  <span class="method-name">select_communities</span>
+                  <em>
+(verify the communities dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_communities">
+                  </a> <!-- select_communities -->
+                  <span class="method-name">select_communities</span>
+                  <em>
+(verify the communities dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="select_communities">
+                  </a> <!-- select_communities -->
+                  <span class="method-name">select_communities</span>
+                  <em>
+(verify the communities dropdown)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -202,23 +644,23 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;paralleldemo.Selenium4ParallelDemo&quot;/&gt;
+      &lt;class name=&quot;crossbrowser.CrossBrowserTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ChromeTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;FireFoxTest&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;FireFoxTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;paralleldemo.Selenium4ParallelDemo&quot;/&gt;
+      &lt;class name=&quot;crossbrowser.CrossBrowserTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- FireFoxTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;EdgeTest&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;paralleldemo.Selenium4ParallelDemo&quot;/&gt;
+      &lt;class name=&quot;crossbrowser.CrossBrowserTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- EdgeTest --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -264,36 +706,144 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(33);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validCredentials')
-data.setCell(0, 2, 'paralleldemo.Selenium4ParallelDemo')
-data.setCell(0, 3, 11867);
+data.setCell(0, 1, 'CINCHCCMlogin')
+data.setCell(0, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(0, 3, 38427);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validCredentials')
-data.setCell(1, 2, 'paralleldemo.Selenium4ParallelDemo')
-data.setCell(1, 3, 11681);
+data.setCell(1, 1, 'CINCHCCMlogin')
+data.setCell(1, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(1, 3, 32169);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validCredentials')
-data.setCell(2, 2, 'paralleldemo.Selenium4ParallelDemo')
-data.setCell(2, 3, 10412);
+data.setCell(2, 1, 'CINCHCCMlogin')
+data.setCell(2, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(2, 3, 25655);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'click_on_the_login_button')
-data.setCell(3, 2, 'paralleldemo.Selenium4ParallelDemo')
-data.setCell(3, 3, 23);
+data.setCell(3, 1, 'Verify_the_Continue_Button')
+data.setCell(3, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(3, 3, 13292);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'click_on_the_login_button')
-data.setCell(4, 2, 'paralleldemo.Selenium4ParallelDemo')
-data.setCell(4, 3, 18);
+data.setCell(4, 1, 'Verify_the_Continue_Button')
+data.setCell(4, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(4, 3, 13132);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'click_on_the_login_button')
-data.setCell(5, 2, 'paralleldemo.Selenium4ParallelDemo')
-data.setCell(5, 3, 18);
+data.setCell(5, 1, 'Verify_the_Continue_Button')
+data.setCell(5, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(5, 3, 13107);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'choose_an_end_date')
+data.setCell(6, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(6, 3, 6339);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'choose_an_end_date')
+data.setCell(7, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(7, 3, 6307);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'click_on_the_manage')
+data.setCell(8, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(8, 3, 6260);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'click_on_the_manage')
+data.setCell(9, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(9, 3, 6092);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'click_on_the_manage')
+data.setCell(10, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(10, 3, 6068);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'click_on_the_login_button')
+data.setCell(11, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(11, 3, 5412);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'click_on_the_login_button')
+data.setCell(12, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(12, 3, 5261);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'click_on_the_add_new_community_note')
+data.setCell(13, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(13, 3, 5246);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'click_on_the_login_button')
+data.setCell(14, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(14, 3, 5154);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'click_on_the_save_button')
+data.setCell(15, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(15, 3, 5126);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'click_on_the_save_button')
+data.setCell(16, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(16, 3, 5099);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'click_on_the_add_new_community_note')
+data.setCell(17, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(17, 3, 5093);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'click_on_the_add_new_community_note')
+data.setCell(18, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(18, 3, 5069);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'choose_a_start_date')
+data.setCell(19, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(19, 3, 3155);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'choose_a_start_date')
+data.setCell(20, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(20, 3, 3133);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'choose_a_start_date')
+data.setCell(21, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(21, 3, 3083);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'enter_the_note')
+data.setCell(22, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(22, 3, 2104);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'enter_the_note')
+data.setCell(23, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(23, 3, 2070);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'enter_the_note')
+data.setCell(24, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(24, 3, 2033);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'choose_an_end_date')
+data.setCell(25, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(25, 3, 1117);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'select_communities')
+data.setCell(26, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(26, 3, 410);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'select_communities')
+data.setCell(27, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(27, 3, 209);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'select_communities')
+data.setCell(28, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(28, 3, 199);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'community_note_was_created_message_should_be_shown')
+data.setCell(29, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(29, 3, 36);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'community_note_was_created_message_should_be_shown')
+data.setCell(30, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(30, 3, 22);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'click_on_the_save_button')
+data.setCell(31, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(31, 3, 13);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'community_note_was_created_message_should_be_shown')
+data.setCell(32, 2, 'crossbrowser.CrossBrowserTest')
+data.setCell(32, 3, 7);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -308,9 +858,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">crossbrowser.CrossBrowserTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Verify_the_Dropdown_and_select_the_Test_Community</span>
+                <br/>
+                <span class="ignored-method-name">Verify_the_Dropdown_and_select_the_Test_Community</span>
+                <br/>
+                <span class="ignored-method-name">Verify_the_Dropdown_and_select_the_Test_Community</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -319,79 +880,167 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">paralleldemo.Selenium4ParallelDemo</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setDriver(chrome)</span>
+              <div class="chronological-class-name">crossbrowser.CrossBrowserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize(chrome)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">validCredentials</span>
-                <span class="method-start">4590 ms</span>
+                <span class="method-name">CINCHCCMlogin</span>
+                <span class="method-start">1342 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">16472 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setDriver(chrome)</span>
-                <span class="method-start">16631 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">click_on_the_login_button</span>
-                <span class="method-start">20920 ms</span>
+                <span class="method-name">CINCHCCMlogin</span>
+                <span class="method-start">2715 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">20940 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setDriver(firefox)</span>
-                <span class="method-start">21065 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validCredentials</span>
-                <span class="method-start">26033 ms</span>
+                <span class="method-name">CINCHCCMlogin</span>
+                <span class="method-start">2726 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">36445 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setDriver(firefox)</span>
-                <span class="method-start">37462 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">click_on_the_login_button</span>
-                <span class="method-start">42430 ms</span>
+                <span class="method-start">28379 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">42455 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setDriver(edge)</span>
-                <span class="method-start">43301 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validCredentials</span>
-                <span class="method-start">47402 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">59083 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setDriver(edge)</span>
-                <span class="method-start">59301 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">click_on_the_login_button</span>
-                <span class="method-start">63436 ms</span>
+                <span class="method-start">33513 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">63456 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify_the_Continue_Button</span>
+                <span class="method-start">33792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_the_Continue_Button</span>
+                <span class="method-start">38776 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_login_button</span>
+                <span class="method-start">41154 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_the_Continue_Button</span>
+                <span class="method-start">46309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_manage</span>
+                <span class="method-start">47087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_manage</span>
+                <span class="method-start">51909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_add_new_community_note</span>
+                <span class="method-start">53349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_add_new_community_note</span>
+                <span class="method-start">57979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enter_the_note</span>
+                <span class="method-start">58597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_manage</span>
+                <span class="method-start">59418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">select_communities</span>
+                <span class="method-start">60631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">choose_a_start_date</span>
+                <span class="method-start">61042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enter_the_note</span>
+                <span class="method-start">63049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">choose_an_end_date</span>
+                <span class="method-start">64127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">select_communities</span>
+                <span class="method-start">65120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">choose_a_start_date</span>
+                <span class="method-start">65332 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_add_new_community_note</span>
+                <span class="method-start">65513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">choose_an_end_date</span>
+                <span class="method-start">68488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_save_button</span>
+                <span class="method-start">70467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">community_note_was_created_message_should_be_shown</span>
+                <span class="method-start">70481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">70489 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">enter_the_note</span>
+                <span class="method-start">70608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">select_communities</span>
+                <span class="method-start">72714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">choose_a_start_date</span>
+                <span class="method-start">72914 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_save_button</span>
+                <span class="method-start">74797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">choose_an_end_date</span>
+                <span class="method-start">76049 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_the_save_button</span>
+                <span class="method-start">77167 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">community_note_was_created_message_should_be_shown</span>
+                <span class="method-start">79925 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">79962 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">community_note_was_created_message_should_be_shown</span>
+                <span class="method-start">82268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">82291 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
